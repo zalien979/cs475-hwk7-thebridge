@@ -21,7 +21,7 @@ public abstract class Bridge {
     bridge = new ArrayList<>();
     direction = true;
   }
-
+   
   abstract public void arrive(Car car) throws InterruptedException;
 
   abstract public void exit(Car car) throws InterruptedException;
